@@ -58,9 +58,9 @@ for each in x:
         print(f'{each_cell} is the {type(each_cell)} type.')
         if type(each_cell) is None:
             print('each cell is a none type. Converting to empty int')
-            each_cell = 0
-            print(type(each_cell))
-            each_cell = 1
+            # each_cell = 0
+            # print(type(each_cell))
+            # each_cell = 1
             print(each_cell)
         elif type(each_cell) is int:
             print('cell is Int Type')
